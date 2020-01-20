@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: monospace;
+    font-size:16px;
+}
+h1{
+    font-size:2em;
+    margin:0.5em 0;
+}
+h2{
+    font-size:1.25em;
+    margin:0.5em 0;
+}
+
+/* Body */
+
+body > h1 {
+    text-align:center;
+}
+/* Branches & branch */
+
+.branches{
+    background:#f1f1f1;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.branch{
+    display:inline-block;
+    
+    width: 900px;
+}
+.branches .branch:not(:last-of-type){
+    border-bottom:0.25em solid black;
+    margin-bottom:0.5em;
+    padding-bottom:0.5em;
+}
+/* Commits */
+.commits{
+    background:#1f1f1f;
+    color:white;
+    padding:1em;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.commit{
+    display:inline-block;
+    min-width: 900px;
+}
+.commit h1{
+    text-transform: capitalize;
+}
+.commits .commit:not(:last-of-type){
+    border-bottom:0.25em solid black;
+    margin-bottom:0.5em;
+    padding-bottom:0.5em;
+}
