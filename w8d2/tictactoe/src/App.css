@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+#grid{
+  display:flex;
+  flex-wrap:wrap;
+}
+#grid button{
+  width:calc(100% / 3);
+  height:30vmin;
+  font-size:6em;
+}
